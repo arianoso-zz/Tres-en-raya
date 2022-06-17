@@ -1,0 +1,24 @@
+/*
+ * Modo Oscuro Utiliza javascript
+ * Version: 1.0
+ * Desarrollado por: Arian (arianoso)
+ * */
+$body: #4c5763;
+$titulo: rgb(224, 60, 60);
+$warning: rgb(204, 148, 43);
+$color-text-btn: rgb(255, 255, 255);
+
+
+body.dark{
+    background: $body;
+  }
+  
+  body.dark #titulo{
+    color: $titulo;
+  }
+  
+  body.dark .btn-warning{
+    border: 4px solid $warning;
+    background-color: $warning;
+    color: $color-text-btn;
+  }
